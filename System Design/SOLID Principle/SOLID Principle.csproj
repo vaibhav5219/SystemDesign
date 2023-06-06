@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Client\CannonMG.cs" />
+    <Compile Include="Client\HpLaserJet.cs" />
+    <Compile Include="Interface-Segretion-Principle.cs" />
+    <Compile Include="IUser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
