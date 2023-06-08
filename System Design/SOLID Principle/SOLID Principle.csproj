@@ -45,8 +45,13 @@
   <ItemGroup>
     <Compile Include="Client\CannonMG.cs" />
     <Compile Include="Client\HpLaserJet.cs" />
+    <Compile Include="Abstract\Employee.cs" />
+    <Compile Include="Implementation\ContractEmployee.cs" />
+    <Compile Include="Interface\IEmployee.cs" />
+    <Compile Include="Interface\IEmployeeBonus.cs" />
     <Compile Include="Interface-Segretion-Principle.cs" />
     <Compile Include="IUser.cs" />
+    <Compile Include="Liskov-Substitution-Principle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
