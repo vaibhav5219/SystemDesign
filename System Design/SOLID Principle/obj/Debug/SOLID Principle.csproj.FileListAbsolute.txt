@@ -5,3 +5,4 @@ F:\GitHub\SystemDesign\System Design\SOLID Principle\obj\Debug\SOLID Principle.c
 F:\GitHub\SystemDesign\System Design\SOLID Principle\obj\Debug\SOLID Principle.csproj.CoreCompileInputs.cache
 F:\GitHub\SystemDesign\System Design\SOLID Principle\obj\Debug\SOLID Principle.exe
 F:\GitHub\SystemDesign\System Design\SOLID Principle\obj\Debug\SOLID Principle.pdb
+F:\GitHub\SystemDesign\System Design\SOLID Principle\obj\Debug\SOLID Principle.csproj.SuggestedBindingRedirects.cache
