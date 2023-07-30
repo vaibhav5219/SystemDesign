@@ -9,27 +9,35 @@ namespace Singletone
     public sealed class Singletone
     {
         public static int counter = 0;
+        public static Object obj = new Object();
         private static Singletone instance = null;
         public static Singletone GetSingletone   // It's a Property
         {
             get
             {
-                //It will also work
-                if (counter == 0) 
-                    instance = new Singletone();  //Only one instance of singleton will created here also
-
                 if (instance == null)
-                    instance = new Singletone();  //Only one instance of singleton will created here also
+                {
+                    lock (obj)
+                    {
+                        //It will also work
+                        if (counter == 0)
+                            instance = new Singletone();  //Only one instance of singleton will created here also
+
+                        if (instance == null)
+                            instance = new Singletone();  //Only one instance of singleton will created here also
+                    }
+                }
                 return instance;
             }
         }
         private Singletone()
         {
             ++counter;
+            Console.WriteLine("counter in constructor " + counter);
         }
         public void printDetails(string mssg)
         {
-            Console.WriteLine(mssg +" counter="+counter);
+            Console.WriteLine(mssg + " counter=" + counter);
         }
     }
 }
