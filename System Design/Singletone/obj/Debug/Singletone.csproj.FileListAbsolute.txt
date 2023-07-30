@@ -1,0 +1,7 @@
+F:\GitHub\SystemDesign\System Design\Singletone\bin\Debug\Singletone.exe.config
+F:\GitHub\SystemDesign\System Design\Singletone\bin\Debug\Singletone.exe
+F:\GitHub\SystemDesign\System Design\Singletone\bin\Debug\Singletone.pdb
+F:\GitHub\SystemDesign\System Design\Singletone\obj\Debug\Singletone.csproj.AssemblyReference.cache
+F:\GitHub\SystemDesign\System Design\Singletone\obj\Debug\Singletone.csproj.CoreCompileInputs.cache
+F:\GitHub\SystemDesign\System Design\Singletone\obj\Debug\Singletone.exe
+F:\GitHub\SystemDesign\System Design\Singletone\obj\Debug\Singletone.pdb
